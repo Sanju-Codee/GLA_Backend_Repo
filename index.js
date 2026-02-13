@@ -10,6 +10,9 @@ import question1 from "./Q1.js";
 import signup from "./signUp.js";
 import question3 from "./Q3.js";
 import errorPage from "./Q4.js";
+import q6p1 from "./Q6part1.js"
+import q6p2 from "./Q6part2.js"
+import q6p3 from "./Q6part3.js"
 
 
 dotenv.config();
@@ -28,6 +31,9 @@ app.post("/solve1/:id",question1);
 app.post("/signup",signup);
 app.post("/contact",question3);
 app.post("/",errorPage);
+app.post("/1",q6p1);
+app.post("/2",q6p2);
+app.post("/3",q6p3);
 
 //checking connection
 app.listen(port, ()=>{
