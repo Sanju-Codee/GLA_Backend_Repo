@@ -5,7 +5,7 @@
   "license": "ISC",
   "author": "",
   "type": "module",
-  "main": "server.js",
+  "main": "Q1.js",
   "scripts": {
     "start": "nodemon Q1.js"
   },
