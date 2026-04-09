@@ -7,7 +7,7 @@
   "type": "module",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon Q1.js"
+    "start": "nodemon Q-1.js"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
